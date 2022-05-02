@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="/CSS/style.css" />
+
+    <title>Adam Grant Clone</title>
+  </head>
+  <body lang="en-US" class="mx-auto max-w-[1472px] min-h-[100vh]">
+    <header class="main_header">
+      <div class="">
+        <ul class="social-icons  justify-end items-center m-3 p-3 flex  ">
+          <li class="cursor-pointer mx-3 p-2">
+            <img src="/Assets/twitter-logo-24.png" alt="" />
+          </li>
+          <li class="cursor-pointer mx-3 p-2">
+            <img src="/Assets/linkedin-logo-24.png" alt="" />
+          </li>
+          <li class="cursor-pointer mx-3 p-2">
+            <img src="/Assets/instagram-logo-24.png" alt="" />
+          </li>
+          <li class="cursor-pointer mx-3 p-2">
+            <img src="/Assets/facebook-logo-24.png" alt=""/>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar items-center justify-between flex max-w-[1100px] mx-auto ">
+        <div class="right_part pl-2">
+          <ul
+            class="right-ul flex items-center justify-between space-x-6 w-max"
+          >
+            <li class="relative p-2 m-2">
+              About
+              <ul
+                class="flex absolute hide space-x-4 text-blue-600 translate-x-4"
+              >
+                <li class="w-max p-2 m-2">Bio</li>
+                <li class="w-max p-2 m-2">Press&Videos</li>
+              </ul>
+            </li>
+            <li class="p-2 m-2">writing</li>
+            <li class="relative p-2 m-2">
+              Speaking
+              <ul class="hide flex absolute space-x-4 text-blue-600">
+                <li class="p-2 m-2">Articles</li>
+                <li class="p-2 m-2">Granted</li>
+                <li class="p-2 m-2">Wandering</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="heading flex items-center justify-between  min-h-[100px]">
+          <h1 class="text-2xl font-bold">Adam Grant</h1>
+          <div class="menu-btn2 cursor-pointer hidden mr-[1rem] hidden">
+            <div class="content   hamburger bg-black w-[20px] h-[2px]"></div>
+            <div class="content  hamburger bg-black w-[20px] h-[2px]"></div>
+            <div class="content   hamburger bg-black w-[20px] h-[2px]"></div>
+          </div>
+        </div>
+        <div class="right_part pr-2">
+          <ul class="rightul flex items-center space-x-4 justify-between">
+            <li class="relative p-2 m-2">
+              books
+              <ul
+                class="absolute hide space-x-4 flex items-center justify-between translate-x-[-12rem]"
+              >
+                <li class="text-blue-500 w-max m-2">Think Again</li>
+                <li class="text-blue-500 w-max m-2">Originals</li>
+                <li class="text-blue-500 w-max m-2">Give And Take</li>
+                <li class="text-blue-500 w-max m-2">Option B</li>
+              </ul>
+            </li>
+            <li class="p-2 m-2">Podcasts</li>
+            <li class="p-2 m-2">Quizzes</li>
+          </ul>
+        </div>
+        
+      </nav>
+      <nav class="navbar-mobile h-full w-full fixed bg-white inset-0 z-20 hidden ">
+        <div
+          class="access flex items-center justify-between flex-row min-h-[100px] mx-5"
+        >
+          <div class="heading">
+            <h1 class="text-2xl font-bold">Adam Grant</h1>
+          </div>
+          <div class="menu-btn cursor-pointer ">
+            <div class="content bg-black w-[20px] h-[2px]"></div>
+            <div class="content bg-black w-[20px] h-[2px]"></div>
+            <div class="content bg-black w-[20px] h-[2px]"></div>
+          </div>
+        </div>
+        <ul class="mainul h-[80%] flex flex-col justify-evenly">
+          <li class="flex flex-col mx-5">
+            <div class="flex items-center justify-between">
+              <p class="px-2">About</p>
+              <button class="px-2">^</button>
+            </div>
+            <ul class="flex items-start space-y-3 justify-between flex-col hidden">
+              <li class="text-blue-500 mx-2">Bio</li>
+              <li class="text-blue-500 mx-2">Press & Videos</li>
+            </ul>
+          </li>
+          <li class="mx-5 my-2">Speaking</li>
+          <li class="flex flex-col mx-5">
+            <div class="flex items-center justify-between">
+              <p class="px-2">Writing</p>
+              <button class="px-2">^</button>
+            </div>
+            <ul class="flex items-start space-y-3 justify-between flex-col hidden">
+              <li class="text-blue-500 mx-2">Articles</li>
+              <li class="text-blue-500 mx-2">Granted</li>
+              <li class="text-blue-500 mx-2">Wandering</li>
+            </ul>
+          </li>
+          <li class="flex flex-col mx-5">
+            <div class="flex items-center justify-between">
+              <p class="px-2">Books</p>
+              <button class="px-2">^</button>
+            </div>
+            <ul class="flex items-start space-y-3 justify-between flex-col hidden">
+              <li class="text-blue-500 mx-2">Think Again</li>
+              <li class="text-blue-500 mx-2">Originals</li>
+              <li class="text-blue-500 mx-2">Give and Take</li>
+              <li class="text-blue-500 mx-2">Option B</li>
+            </ul>
+          </li>
+          <li class="mx-5">Podcasts</li>
+          <li class="mx-5">Quizzes</li>
+        </ul>
+
+        <ul class="social-icons justify-center items-center m-3 p-3 flex">
+          <li class="cursor-pointer mx-3 p-2">
+            <img src="/Assets/twitter-logo-24.png" alt="" />
+          </li>
+          <li class="cursor-pointer mx-3 p-2">
+            <img src="/Assets/linkedin-logo-24.png" alt="" />
+          </li>
+          <li class="cursor-pointer mx-3 p-2">
+            <img src="/Assets/instagram-logo-24.png" alt="" />
+          </li>
+          <li class="cursor-pointer mx-3 p-2">
+            <img src="/Assets/facebook-logo-24.png" alt="" />
+          </li>
+        </ul>
+
+      </nav>
+    </header>
+
+    <section class="section">
+      <main class="main flex items-center justify-center my-10 min-h-[7rem]">
+        <h2 class="text-3xl font-bold">
+          Organizational psychologist and bestselling author
+        </h2>
+      </main>
+
+      <section class="images_container flex items-center justify-evenly">
+        <div class="image-one flex items-center justify-between flex-col">
+          <img src="/Assets/talks.jpg" alt="" class="w-96" />
+          <span class="text-blue-500 underline cursor-pointer"> Talks </span>
+        </div>
+        <div class="image-two flex items-center justify-between flex-col">
+          <img
+            src="/Assets/AdamGrant_2021_BookMockup_v2.jpg"
+            alt=""
+            class="h-[29rem] w-96"
+          />
+          <span class="text-blue-500 underline cursor-pointer"> Books</span>
+        </div>
+        <div class="image-three flex items-center justify-between flex-col">
+          <img src="/Assets/podcast.png" alt="" class="w-96" />
+          <span class="text-blue-500 underline cursor-pointer"> Podcasts</span>
+        </div>
+      </section>
+    </section>
+    <section class="Tagline mx-auto mt-24 max-w-xl">
+      <h3 class="text-center text-3xl">
+        The most meaningful way to succeed is to help others succeed.
+      </h3>
+    </section>
+    <div
+      class="newsletter flex items-start justify-between flex-col max-w-3xl mx-auto mt-16"
+    >
+      <h2 class="m-5 text-3xl">Granted newsletter</h2>
+      <p class="m-5">
+        Get a monthly dose of insight on motivation, meaning, and leading a more
+        generous and creative life. Each month I send a newsletter to over
+        100,000+ readers on new ideas and evidence about work and psychology.
+      </p>
+    </div>
+
+    <div
+      class="Emaling max-w-4xl my-24 mx-auto flex items-center justify-between"
+    >
+      <a href="#" class="text-red-600 underline text-xl"
+        >Read The latest Issue</a
+      >
+      <div class="inputdiv">
+        <label class="underline decoration-red-600 text-red-600"
+          ><input
+            type="email"
+            placeholder="Enter Your Email Address here"
+            class="outline-none border-b-2 border-white decoration-red-600 placeholder:text-red-200 transition-all"
+          />Subscribe</label
+        >
+      </div>
+    </div>
+    <div
+      class="dialougebox-container absolute flex items-center justify-center z-10 h-[100vh] inset-0 w-[100vw] hide"
+    >
+      <div class="dialouge-box bg-pink-50 relative">
+        <div
+          class="textcontainer flex items-center justify-evenly flex-col h-96"
+        >
+          <h2 class="text-red-800 text-2xl">Granted</h2>
+          <p class="text-red-800">
+            Join over 100000 Subscribers to Adma's monthly newsletter on work
+            and psychology
+          </p>
+          <label class="underline decoration-red-600 text-red-600"
+            ><input
+              type="email"
+              placeholder="Enter Your Email Address here"
+              class="outline-none underline decoration-red-600 placeholder:text-red-200 transition-all"
+            />Subscribe</label
+          >
+        </div>
+        <button class="btn absolute top-1 right-1">Cancel</button>
+      </div>
+    </div>
+
+    <footer class="bg-black text-white min-h-[12rem]">
+      <div class="footer_container">
+        <div
+          class="part_one flex items-center justify-between max-w-3xl mx-auto my-10 min-h-[12rem]"
+        >
+          <h2 class="text-xl my-6">Adam Grant</h2>
+          <ul class="nav flex space-x-4 items-center justify-between my-6">
+            <li>About</li>
+            <li>Speaking</li>
+            <li>Writing</li>
+            <li>Books</li>
+            <li>Podcast</li>
+            <li>Quizzes</li>
+          </ul>
+        </div>
+        <div
+          class="part-two flex items-center justify-between max-w-3xl mx-auto mt-10"
+        >
+          <div class="inputdiv">
+            <label class="underline decoration-white"
+              ><input
+                type="email"
+                placeholder="Enter Your Email Address here to get Subscribed to the granted newslater"
+                class="outline-none underline decoration-white placeholder:text-white bg-black text-xs mx-3 transition-all"
+              />Submit</label
+            >
+          </div>
+          <h2 class="kris text-white m-3">Designed By Kris</h2>
+          <div class="order-1">
+            <ul class="social-icons flex justify-end items-center m-3 p-3">
+              <li class="cursor-pointer mx-3 p-2">
+                <img src="/Assets/twitter-logo-24_white.png" alt="" />
+              </li>
+              <li class="cursor-pointer mx-3 p-2">
+                <img src="/Assets/linkedin-white.png" alt="" />
+              </li>
+              <li class="cursor-pointer mx-3 p-2">
+                <img src="/Assets/instagram-white.png.png" alt="" />
+              </li>
+              <li class="cursor-pointer mx-3 p-2">
+                <img src="/Assets/facebook_white.png" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/JS/app.js" ></script>
+  </body>
+</html>
